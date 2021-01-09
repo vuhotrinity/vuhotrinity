@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+body{
+    background-color: #ccc;
+    font-family: 'Yusei Magic', sans-serif;}
+
+h1{
+    margin-left: 90px;
+    margin-top: 80px;
+    font-weight:900;
+    font-size: 50px;
+}
+#register-form {
+    background-color: white;
+    width: 875px;
+    height:550px;
+    margin: auto;
+    
+    /* padding-top: 10px; */
+    border-radius: 20px;
+    border: 1px solid white;
+}
+
+input {
+    width: 350px;
+    height: 35px;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    position: relative;
+    left: 100px;
+    /* background-color: rgb(230, 230, 230); */
+
+}
+#name {
+    margin-left: 20px;
+}
+#password {
+    margin-left: 20px
+    ;
+
+}
+#submitBtn {
+    width: 150px;
+    height: 50px;
+    border: 1px solid #ccc;
+    margin: auto;
+
+    margin-top: 20px;
+    background-color: rgb(109, 170, 228);
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+}
+
+
+#password_Confirmation{
+    margin-left: 20px;
+}
+#passwordConfirmation {
+    font-size: 20px;
+    margin-left: 20px;
+}
+#to-login {
+    display: inline;
+    margin-left: 450px;
+    margin-top: 400px;
+}
+#to-login a {
+    color: black;
+}
+#personIcon {
+    position: relative;
+}
+.fa-user-alt{
+    position: absolute;
+    left: 90px;
+    top: 10px;
+}
+.fa-unlock-alt{
+position: absolute;
+margin-left: 90px;
+margin-top: 10px;
+}
+#lineHasIcon{
+    position: absolute;
+    color: black;
+    border-bottom: 2px solid  rgb(118, 118, 118);
+    width: 40px;
+    left: 80px;
+    top: 37px;
+}
+#lineTwoHasIcon{
+    position: absolute;
+    color: black;
+    border-bottom: 2px solid  rgb(118, 118, 118);
+    width: 40px;
+    margin-left: 80px;
+    margin-top: 37px;
+}
+#lineThreeHasIcon{
+    position: absolute;
+    color: black;
+    border-bottom: 2px solid  rgb(118, 118, 118);
+    width: 40px;
+    margin-left: 80px;
+    margin-top: 37px;
+}
+#image {
+    position: absolute;
+    margin-left: 370px;
+    bottom: 300px;
+    width: 300px;
+}

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+body{
+    position: relative;
+    background-color: #ccc;
+    font-family: 'Yusei Magic', sans-serif;}
+h1{
+    position: absolute;
+        margin-left: 550px;
+        top: 100px;
+        font-weight:900;
+        font-size: 40px;
+    }
+    #login-form {
+        background-color: white;
+        width: 1000px;
+        height:600px;
+        /* margin-left: 300px;
+        margin-top: 50px; */
+        /* margin: auto; */
+        margin: auto;
+        /* padding-top: 10px; */
+        border-radius: 20px;
+        border: 1px solid white;
+    }
+
+input {
+    width: 350px;
+    height: 35px;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    position: relative;
+    left: 30px;
+}
+
+     
+#submitBtn {
+    width: 130px;
+    height: 60px;
+    border: 1px solid #ccc;
+    margin: auto;
+    
+    margin-top: 20px;
+    background-color: rgb(109, 170, 228);
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+
+}
+#lineHasIcon{
+    position: absolute;
+    color: black;
+    border-bottom: 2px solid  rgb(118, 118, 118);
+    width: 40px;
+    left: 785px;
+    top: 238px;
+}
+.fa-user-alt{
+    position: absolute;
+    left: 785px;
+    top: 210px;
+}
+.fa-unlock-alt{
+    position: absolute;
+    left: 785px;
+    top: 273px;
+    }
+#login-container {
+    margin-left:540px;
+    margin-top: 200px;
+}
+#lineTwoHasIcon {
+    position: absolute;
+    color: black;
+    border-bottom: 2px solid  rgb(118, 118, 118);
+    width: 40px;
+    margin-left: 15px;
+    margin-top: 37px;
+}
+#to-register{
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+#to-register a {
+    color: black;
+}
+#register-img {
+    width: 70%;
+    height: 80%;
+    position: relative;
+    right: 400px;
+    bottom: 300px;
+}
