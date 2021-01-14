@@ -1,6 +1,6 @@
 import { getDataFromDoc, saveCurrentUser } from "../utlis.js";
 
- 
+
 
 let $userName = document.getElementById("name")
 let $password = document.getElementById("password")
@@ -15,8 +15,7 @@ $submit.onclick =async (event) =>{
     let result = await firebase.firestore().collection("Users").where("username","==",$userName.value).where("password","==",CryptoJS.MD5($password.value).toString()).get()
     console.log(result);
     if(result.docs.length != ""){
-        alertify
-             .alert("You Now Sign In")
+        setTimeout(function(){window.location.href="../Flappy Bird/index.html"},1000)  
         saveCurrentUser(getDataFromDoc(result.docs[0]))
     
     }
