@@ -1,4 +1,5 @@
 // mình bắt đầu nhé hôm nay mic hư :)
+
 let canvas= document.getElementById('myFlappy');
 let scoreShow=document.getElementById('score');
 let score = document.getElementById('scoreNumber').value
@@ -78,8 +79,8 @@ function run(){
     bird.y += 2.5;
     requestAnimationFrame(run)
 }
+run();
 //Fly when press key
 document.addEventListener("keydown",function(){
     bird.y -=60;
 })
-run()
