@@ -82,4 +82,4 @@ function run(){
 document.addEventListener("keydown",function(){
     bird.y -=60;
 })
-run();
+run()
