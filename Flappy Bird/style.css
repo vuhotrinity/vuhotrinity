@@ -1,0 +1,41 @@
+.scoreBoxWrapper{
+    position: relative;
+}
+#scoreBox{
+    width: 470px;
+    height: 507px;
+    background-color: purple;
+    border: 2px solid #cccccc;
+    position: absolute;
+    margin-left: 950px;
+    bottom: 0px;
+    border-radius: 20px;
+}
+#line{
+    height: 3px;
+    width: 470px;
+    background-color: white;
+    position: absolute;
+    left: 950px;
+    bottom: 400px;
+}
+#score {
+    position: absolute;
+    left: 1175px;
+    bottom: 110px;
+    color: wheat;
+    font-size: 90px;
+
+}
+#scoreNumber{
+display: none;
+}
+#name {
+    position: absolute;
+    left: 1110px;
+    bottom: 410px;
+    color: wheat;
+    font-size: 30px;
+
+
+}
