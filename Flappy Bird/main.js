@@ -82,5 +82,4 @@ function run(){
 document.addEventListener("keydown",function(){
     bird.y -=60;
 })
-alertify.alert("Please refresh the web")
 run()
